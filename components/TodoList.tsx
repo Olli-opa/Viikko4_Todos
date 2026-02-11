@@ -1,5 +1,5 @@
 import { StyleSheet, FlatList, View, Text } from 'react-native';
-import { Todo } from '../App';
+import { Todo } from '../hooks/useTodos';
 import TodoItem from './TodoItem';
 
 interface TodoListProps {

@@ -1,5 +1,5 @@
 import { StyleSheet, TouchableOpacity, View, Text } from 'react-native';
-import { Todo } from '../App';
+import { Todo } from '../hooks/useTodos';
 
 interface TodoItemProps {
   todo: Todo;
